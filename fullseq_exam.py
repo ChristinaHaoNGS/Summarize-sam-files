@@ -2,7 +2,7 @@
 #Feb. 19, 2019
 #This script inspects sam file and creates summary of all reads to detect sequence variations
 
-import sys, subprocess, getopt
+import sys, subprocess
 from optparse import OptionParser
 
 dict_count={}
