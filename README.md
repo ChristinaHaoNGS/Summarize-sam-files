@@ -34,9 +34,14 @@ python fullseq_exam.py -f your_file.sam -a your_file.fa
 Arguments
 
 -f, --samfile	[required] sam file
+
 -a, --fastafile	[required] fasta file
+
 -s, --start	[optional] Position of read to begin analysis. Default: 10 
+
 -e, --end	[optional] Position of read to end analysis. Default: 70
+
 -c, --summarycutoff	[optional] In the summary of mapped reads, report only reads with greater than -c reads. Default: 10
+
 -u, --unmappedcutoff	[optional] In the summary of unmapped reads, report only reads with greater than -u reads. Default: 100
 
