@@ -8,15 +8,15 @@ This script is useful for detecting sequence variations from amplicon-seq data. 
 
 Example summary of mapped reads: shown below are top three most abundant reads mapping to “ALK-3” amplicon defined in the Fasta file. The first sequence occurs 1965 times, and it maps exactly to the reference sequence. The second most abundant read occurs 52 times, and it has a mismatch at position 22, where a G in the reference is replaced by an A. The length of the sequence that is analyzed is user defined (options -s and -e). As default, the script analyzes 60 bases from positions 10 to 70. 
 
-ALK-3	CATGGAAGCCCTGATCATCAGGTAAAGCCACAGAGAGACACCCTCACCCCAACTCCCCTC	1965	
-ALK-3	CATGGAAGCCCTGATCATCAGATAAAGCCACAGAGAGACACCCTCACCCCAACTCCCCTC	52	22:G>A
-ALK-3	CATGGAAGCCCTGATCATCAGGTGAAGCCACAGAGAGACACCCTCACCCCAACTCCCCTC	45	24:A>G
+ALK-3 CATGGAAGCCCTGATCATCAGGTAAAGCCACAGAGAGACACCCTCACCCCAACTCCCCTC 1965	
+ALK-3	CATGGAAGCCCTGATCATCAGATAAAGCCACAGAGAGACACCCTCACCCCAACTCCCCTC	52 22:G>A
+ALK-3	CATGGAAGCCCTGATCATCAGGTGAAGCCACAGAGAGACACCCTCACCCCAACTCCCCTC 45 24:A>G
 
 Example summary of unmapped reads: the script summarizes reads that do not map to expected sequences, as shown below. Only reads that occur above a user specified threshold (option -u) is reported. The default -u value is 1000.
 
-*	CCTTCTGCACCTTGCTGCCTGAACAGCTCCCTCATCGGCTTTCCCCTGTGGTCCCTGGGG	23433
-*	AGCTCATCAAACGGAGGGCTGCTTTTTCCTGATCTCTTTGAGCACCGTGTTTGGATTAGC	23714
-*	GAGCCAATATTGTCTTTGTGTTCCCGGACATAGTCCAGGAGGCAGCCGAAGGGCATGAGC	26434
+CCTTCTGCACCTTGCTGCCTGAACAGCTCCCTCATCGGCTTTCCCCTGTGGTCCCTGGGG	23433
+AGCTCATCAAACGGAGGGCTGCTTTTTCCTGATCTCTTTGAGCACCGTGTTTGGATTAGC	23714
+GAGCCAATATTGTCTTTGTGTTCCCGGACATAGTCCAGGAGGCAGCCGAAGGGCATGAGC	26434
 
 ####REQUIRED INPUT FILES####
 
