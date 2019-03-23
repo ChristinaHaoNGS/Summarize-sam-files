@@ -2,6 +2,7 @@
 Summarizes sam files from amplicon-seq to detect single nucleotide variations (SNV)
 
  ####APPLICATION####
+
 This script is useful for detecting sequence variations from amplicon-seq data. An example application is as follows: PCR amplification using loci specific primers is performed to determine the mutations (SNV and indels) present in those regions. The PCR product is sequenced, and Bowtie is used to map reads to expected amplicons provided in the FASTA file. This script summarizes the SAM file, reporting the number of times each mapped and unmapped reads occur. 
 
 ####EXAMPLE OUTPUT####
